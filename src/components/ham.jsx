@@ -12,6 +12,7 @@ const Hamburger=()=>{
  
     return(
         <RiveComponent 
+        style={{width:'200px',height:'300px'}}
         onClick={()=>onclickInput.fire()}
         />
 
